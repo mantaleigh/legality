@@ -60,12 +60,13 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) or die("Failed to c
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#entries">Entries</a></li>
-                <li><a href="#map">Map</a></li>
+                <li><a href="#map">Crime Report Map</a></li>
               </ul>
             </div><!--/.nav-collapse -->
           </div>
         </nav>
     
+    <div id="main">
         <div id="search" class="panel panel-default">
             <div class="container">
                 <div class="input-group">
@@ -115,14 +116,113 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) or die("Failed to c
     
         
     <div class="container">
-
-      <!-- Main component for a primary marketing message or call to action -->
-      <div class="jumbotron">
-        <p>Table here.</p>
-        </p>
-      </div>
-
-    </div> <!-- /container -->
+        <!-- Main component for a primary marketing message or call to action -->
+        <div class="well">
+            <!-- Table -->
+            <table class="table">
+                <tr>
+                    <th>Media</th>
+                    <th>Time</th>
+                    <th>Address</th>
+                    <th>No. of Reports</th>
+                    <th>Type of Offence</th>
+                    <th>ID</th>
+                    <th>Description</th>
+                
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+                <tr> 
+                    <td>Test</td>
+                    <td>Test 2</td>
+                </tr>
+            </table>
+        </div>
+    </div> <!-- /container --> 
+    </div> <!-- /main -->
+    
+    <div id="footer">
+        <div class="container"> 
+            <span class="footer-link"><a href="#about">About Us</a></span>
+            <span class="footer-link"><a href="#about">Contact Us</a></span>
+            <span class="footer-link"><a href="#about">Privacy Policy</a></span>
+            <span class="footer-copyright"><a href="#about">&copy; Legality - All Rights Reserved</a></span>
+        </div>
+    </div>
 
 
 
