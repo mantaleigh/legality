@@ -2,3 +2,37 @@ body {
   min-height: 2000px;
   padding-top: 70px;
 }
+
+.navbar .logo { 
+    height: 30px;
+} 
+
+/*----search bar----*/
+
+#search .container div { 
+    margin-right: 5px;
+}
+
+#search .input-group { 
+/*    temp*/
+    width: 300px;   
+    float: left;
+}
+
+#search { 
+    padding: 10px;
+}
+
+#search button { 
+    background-color: #e8a701;
+}
+
+#search .dropdown { 
+    float: right;
+}
+
+/* overrides */
+
+#search { 
+    border-radius: 0px;
+}
