@@ -8,14 +8,19 @@ body {
     color: #574f58;
 }
 
+.container { 
+    width: 80%;
+}
+
 /* Wrapper for page content to push down footer */
 #main {
-  min-height: 100%;
-  height: auto;
-  /* Negative indent footer by its height */
-  margin: 0 auto -50px;
-  /* Pad bottom by footer height */
-  padding: 0 0 50px;
+    min-height: 100%;
+    height: auto;
+    /* Negative indent footer by its height */
+    margin: 0 auto -50px;
+    /* Pad bottom by footer height */
+    padding: 0 0 50px;
+
 }
 
 a, a:visited, a:active, .navbar-default .navbar-nav li a, .navbar-default .navbar-nav li a:active, .navbar-default .navbar-nav li a:visited { 
@@ -28,6 +33,7 @@ a:hover {
 
 /* ---- navbar ---- */
 
+
 .navbar-default, #footer { 
     background-color: #2a242a;
     border-color: #2a242a;
@@ -35,13 +41,14 @@ a:hover {
 }
 
 .navbar .logo { 
-    height: 30px;
+    height: 35px;
     padding-bottom: 5px;
+    margin-right: 15px; 
 } 
 
 .navbar-default .navbar-nav li a { 
     height: 40px; 
-    margin-right: 10px; 
+    margin-right: 25px; 
     padding-left: 0px; 
     padding-right: 0px; 
 }
@@ -69,7 +76,7 @@ a:hover {
 }
 
 #search { 
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 #search button { 

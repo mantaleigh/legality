@@ -60,7 +60,7 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) or die("Failed to c
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
                 <li class="active"><a href="#entries">Entries</a></li>
-                <li><a href="#map">Crime Report Map</a></li>
+                <li><a href="#map">Map</a></li>
               </ul>
             </div><!--/.nav-collapse -->
           </div>
