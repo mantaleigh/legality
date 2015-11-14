@@ -82,10 +82,10 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) or die("Failed to c
                     <span class="caret"></span>
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">Assault</a></li>
+                    <li><a href="#">Murder</a></li>
+                    <li><a href="#">Vehicle</a></li>
+                    <li><a href="#">Drugs</a></li>
                   </ul>
                 </div> <!-- /dropdown -->
                 <div class="dropdown">
@@ -94,10 +94,8 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) or die("Failed to c
                     <span class="caret"></span>
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="#">Action</a></li>
-                    <li><a href="#">Another action</a></li>
-                    <li><a href="#">Something else here</a></li>
-                    <li><a href="#">Separated link</a></li>
+                    <li><a href="#">Highest</a></li>
+                    <li><a href="#">Lowest</a></li>
                   </ul>
                 </div> <!-- /dropdown -->
                 <div class="dropdown">
@@ -106,8 +104,8 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) or die("Failed to c
                     <span class="caret"></span>
                   </button>
                   <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="#">A-->Z</a></li>
-                    <li><a href="#">Z-->A</a></li>
+                    <li><a href="#">Increasing</a></li>
+                    <li><a href="#">Decreasing</a></li>
                   </ul>
                 </div> <!-- /dropdown -->
                 
@@ -115,112 +113,257 @@ $mysqli = new mysqli(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME) or die("Failed to c
         </div>
     
         
-    <div class="container">
-        <!-- Main component for a primary marketing message or call to action -->
-        <div class="well">
-            <!-- Table -->
-            <table class="table">
-                <tr>
-                    <th>Media</th>
-                    <th>Time</th>
-                    <th>Address</th>
-                    <th>No. of Reports</th>
-                    <th>Type of Offence</th>
-                    <th>ID</th>
-                    <th>Description</th>
-                
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-                <tr> 
-                    <td>Test</td>
-                    <td>Test 2</td>
-                </tr>
-            </table>
-        </div>
+    <div class="container table-div">
+        <span id="num-results"><p>57 results</p></span>
+        <!-- Table -->
+        <table class="table">
+            <tr>
+                <th>Media</th>
+                <th>Time</th>
+                <th>Address</th>
+                <th>No. of Reports</th>
+                <th>Type of Offence</th>
+                <th>ID</th>
+                <th>Description</th>
+
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+            <tr> 
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+                <td>Test</td>
+            </tr>
+
+            
+        </table>
     </div> <!-- /container --> 
     </div> <!-- /main -->
     
-    <div id="footer">
+    <div id="footer" class="footer">
         <div class="container"> 
             <span class="footer-link"><a href="#about">About Us</a></span>
-            <span class="footer-link"><a href="#about">Contact Us</a></span>
-            <span class="footer-link"><a href="#about">Privacy Policy</a></span>
-            <span class="footer-copyright"><a href="#about">&copy; Legality - All Rights Reserved</a></span>
+            <span class="footer-link"><a href="#contact">Contact Us</a></span>
+            <span class="footer-link"><a href="#privacy-policy">Privacy Policy</a></span>
+            <span class="footer-copyright">&copy; Legality - All Rights Reserved</span>
         </div>
     </div>
 
