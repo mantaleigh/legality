@@ -3,9 +3,10 @@ html, body {
 }
 
 body {
+    position: relative; 
     padding-top: 70px;
     min-height: 100%;
-    color: #574f58;
+    color: #574f58; 
 }
 
 .container { 
@@ -93,15 +94,35 @@ nav {
 }
 
 #search .dropdown button { 
-    background-color: 
+    background-color: #e8a701;
 }
 
-/*----table-------*/
+.input-group button { 
+    height: 35px; 
+}
 
-.table tr:nth-child(2n-1 ) { 
+/*-----table------*/
+
+.table tr:nth-child(2n-1) { 
     background-color: #f2f2f2;
 }
 
+.table-content:hover, .table tr.table-content:nth-child(2n-1):hover { 
+    background-color: #b6b6b6;
+    cursor: hand;
+} 
+
+.table img { 
+    width: 150px; 
+}
+
+.table td { 
+    width: 80px;
+}
+
+.table tr td, .table tr th { 
+    text-align: center;
+}
 
 /*-----footer-----*/
 #footer { 
@@ -118,7 +139,124 @@ nav {
 }
 
 
+/* Map page */
+#map { 
+    position: absolute; 
+    bottom: 0px; 
+    top: 60px; 
+    left: 0; 
+    right: 0; 
+    bottom: 50; 
+    height: auto; 
+    width: auto;
+}
+
+#floating-panel {
+    position: absolute; 
+    bottom: 20px;
+    left: 30%;
+    z-index: 5;
+    padding: 5px;
+    text-align: center;
+    line-height: 20px;
+    padding-left: 10px;
+}
+
+#floating-panel button { 
+    margin-right: 5px;
+    background-color: #f2f2f2;
+} 
+
+#map_page { 
+    height:100%; 
+    width: 100%;
+}
+
+/*----raw data view------*/ 
+
+
+#overlay {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: #2a242a;
+    z-index:9900;
+    opacity: 0.95; 
+}
+
+#overlay-content { 
+    color: #f2f2f2;
+    z-index:9905;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0; 
+    text-align: center;
+}
+
+#overlay-content img { 
+    margin-bottom: 15px; 
+    height: 300px; 
+}
+
+#overlay-content img, #overlay-content .glyphicon-chevron-left, .glyphicon-chevron-right { 
+    float: left;
+}
+
+.glyphicon-remove-circle { 
+    padding: 50px; 
+    font-size: 30px;
+    float: right; 
+}
+
+#raw_image_content {
+    margin-top: 10%;
+    display: inline-block;
+}
+
+.glyphicon-chevron-left { 
+    font-size: 35px;
+    padding-top: 150px; 
+    padding-right: 30px; 
+}
+
+.glyphicon-chevron-right { 
+    font-size: 35px; 
+    padding-top: 150px; 
+    padding-left: 30px; 
+}
+
+#raw_data_info { /* holds the table */
+
+}
+
+#raw_data_info table { 
+    width: 60%;
+    margin: 0 auto;
+}
+
+#raw_data_info table tbody tr:nth-child(1) { 
+    background-color: #2a242a;
+}
+
+#raw_data_info table tbody tr:nth-child(1) th {
+    text-align: center;
+    padding: 10px; 
+}
+
+.raw-data-clickable:hover { 
+    color: #b6b6b6;
+    cursor: pointer;
+}
+
+
 /* overrides */
 #search { 
     border-radius: 0px;
 }
+
+
+
